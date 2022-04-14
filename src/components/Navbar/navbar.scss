@@ -1,6 +1,9 @@
+body {
+    background-color: #bec2c4;
+}
 .navbar {
-    background-color: #000;
-    padding: 15px 0;
+    background-color: #fff;
+    padding: 30px 0;
 
     &__container {
         display: flex;
@@ -10,7 +13,8 @@
     }
 
     &__logo {
-        color: #a2ed77;
+        font-size: 24px;
+        color: #3b3b3b;
         text-transform: uppercase;
         font-weight: 700;
 
@@ -27,13 +31,29 @@
     }
 
     &__menu-link {
-        color: #fff;
+        color: #aeaeae;
         transition: 0.2s ease;
+        text-transform: uppercase;
 
         &.active,
         &:hover{
-            color: #a2ed77;
+            color: #6084fd;
         }
+        // &::after {
+        //     display: block;
+        //     position: absolute;
+        //     left: 0;
+        //     /*изменить на right:0;, чтобы изменить направление подчёркивания */
+        //     width: 0;
+        //     /*задаём длинну линии до наведения курсора*/
+        //     height: 2px;
+        //     /*задаём ширину линии*/
+        //     background-color: #00a650;
+        //     /*задаём цвет линии*/
+        //     content: "";
+        //     transition: width 0.3s ease-out;
+        //     /*задаём время анимации*/
+        // }
     }
 }
 
