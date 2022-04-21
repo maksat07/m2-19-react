@@ -1,8 +1,8 @@
 body {
-    background-color: #bec2c4;
+    background-color: #eaeaea;
 }
 .navbar {
-    background-color: #fff;
+    background-color: #99b4cd;
     padding: 30px 0;
 
     &__container {
@@ -13,6 +13,7 @@ body {
     }
 
     &__logo {
+        font-family: fantasy;
         font-size: 24px;
         color: #3b3b3b;
         text-transform: uppercase;
@@ -27,17 +28,18 @@ body {
     &__menu {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 35px;
     }
 
     &__menu-link {
-        color: #aeaeae;
+        color: #3b3b3b;
         transition: 0.2s ease;
-        text-transform: uppercase;
+        text-transform: capitalize;
 
         &.active,
         &:hover{
-            color: #6084fd;
+            color: #3b3b3b;
+            border-bottom: 3px solid #474747;
         }
         // &::after {
         //     display: block;

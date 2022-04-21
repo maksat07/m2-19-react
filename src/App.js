@@ -10,7 +10,6 @@ import Gallery from "./Pages/Gallery/Gallery"
 import Testimonials from './Pages/Testimonials/Testimonials'
 import Notfound from './Pages/Notfound/Notfound'
 
-import MainHero from './components/MainHero/MainHero';
 
 import './app.scss';
 
@@ -32,7 +31,6 @@ function App() {
          <Route path="testimonials" element={<Testimonials />} />
          <Route path="*" element={<Notfound />} />
        </Routes>
-       <MainHero />
      </main>
     </div>
   );
