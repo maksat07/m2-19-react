@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Notfount() {
+export default function Notfound() {
   return (
    <section className='notfount'>
        <h1>Notfount Page</h1>
