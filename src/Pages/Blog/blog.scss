@@ -23,6 +23,7 @@
 
 
 ul {
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -30,6 +31,7 @@ ul {
 
 .posts {
 width: 290px;
+font-size: 13px;
 display: flex;
 flex-direction: column;
 border: 5px solid rgb(220, 224, 225);
