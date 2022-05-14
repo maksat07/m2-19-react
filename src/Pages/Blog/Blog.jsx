@@ -8,7 +8,7 @@ import "./blog.scss"
 export default function Blog() {
   const [posts, setPoststs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(3);
+  const [postsPerPage, setPostsPerPage] = useState(8);
   
 
 
@@ -34,7 +34,7 @@ export default function Blog() {
   return (
     <section className='services'>
        <h1 style={{textAlign: "center"}}>My Blog</h1>
-       <div className="container">
+       <div className="blog__pg">
          <Posts posts={currentPosts} />
          <Pagination 
          postsPerPage={postsPerPage} 

@@ -8,24 +8,13 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
   }
 
   return (
-    <ul className="Pagination"
-      style={{
-        margin: 0,
-        padding: 0,
-        listStyle: "none",
-        display: "flex",
-        gap: "15px",
-        flexWrap: "wrap",
-      }}
+    <ul className="pagination"
+     
     >
       {pages.map((page) => (
-        <li
-          key={page}
-          style={{
-            border: "1px solid black",
-            padding: "5px 10px",
-          }}
-          onClick={() => paginate(page)}
+        <li 
+        key={page}
+        onClick={() => paginate(page)}
         >
           {page}
         </li>
